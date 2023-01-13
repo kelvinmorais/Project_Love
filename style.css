@@ -68,7 +68,7 @@
   .container3 {
     position: relative;
     width: center;
-    height: 250px;
+    height: 700px;
     
   }
   
@@ -77,26 +77,31 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid rgb(224, 83, 83);
   }
 
 .titulo{
   font: bold 22pt ubuntu;
   color: rgb(224, 83, 83);
   text-align: center;
-  height: 100px;
+  padding: 5px;
+ 
+  max-width: 100%;
+
 }
 
 .paragrafo{
   font: normal 18pt ubuntu;
   color: rgb(224, 83, 83);
   text-align: center;
-  height: 100px;
+  
 }
 
 .paragrafo2{
   font: normal 12pt ubuntu;
   color: rgb(224, 83, 83);
   text-align: center;
+ 
 
 }
 
