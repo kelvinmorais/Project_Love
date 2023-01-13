@@ -36,12 +36,6 @@
     margin: 100px;
 }
 
-.group{
-    background-color: rgb(145, 145, 235);
-    height: 1200px;
-    line-height: 1200px;
-    text-align: 1200px;
-}
 
 .container {
     position: relative;
@@ -86,16 +80,25 @@
   }
 
 .titulo{
-  font: normal 22pt ubuntu;
+  font: bold 22pt ubuntu;
   color: rgb(224, 83, 83);
+  text-align: center;
+  height: 100px;
 }
 
 .paragrafo{
   font: normal 18pt ubuntu;
   color: rgb(224, 83, 83);
+  text-align: center;
+  height: 100px;
 }
 
+.paragrafo2{
+  font: normal 12pt ubuntu;
+  color: rgb(224, 83, 83);
+  text-align: center;
 
+}
 
   .button{
     position: absolute;
